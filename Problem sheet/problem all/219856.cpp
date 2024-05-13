@@ -2,32 +2,29 @@
 using namespace std;
 
 int main(){
-    int t;
-    cin>>t;
     
+    string maintext,copytext;
+    getline(cin,maintext);
+
+    int length=maintext.length();
+    copytext=maintext; //now maintext is modyfied
+
+    reverse(maintext.begin(),maintext.end());
+    string revtext=maintext; 
    
-    if (t>=1 && t<=100)
+    
+    int j,k=0;
+    for (int i=0,j=0; i<length; i++,j++)
     {
-     while (t--)
-    {    
-       string arr;
-       cin>>arr;
-       int length=arr.length();
-       int flag=false;
-        for (int i = 0; i < length; i++)
-        {
-            if ((arr[i]=='1' && arr[i+1]=='0' && arr[i+2]=='1') || (arr[i]=='0' && arr[i+1]=='1' && arr[i+2]=='0'))
-            {
-               flag=true;
-               break;
-            }
+        if(revtext[i]!=copytext[j]){
+            k++;
+            break;
         }
-        if(flag==true){
-            cout<<"Good"<<"\n";
-        }
-        else
-            cout<<"Bad"<<"\n";
-    }
     }
     
+    if(k==0){
+        cout<<"YES";
+    }
+    else
+        cout<<"NO"; 
 }
