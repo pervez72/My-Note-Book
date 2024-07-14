@@ -10,10 +10,16 @@ int main(){
     {
         char c;
         cin>>c;
-        arr[]
+        arr[(int)c-97]++;
     }
-    
-    
 
-
+    for (int i = 0; i<=25; i++)
+    {
+        while (arr[i]!=0)
+        {
+            cout<<(char)(i+97);
+            arr[i]--;
+        }
+        
+    }  
 }
