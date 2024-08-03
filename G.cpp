@@ -1,26 +1,36 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-/// @brief 
-void max_min(){
-int a;
+void max_min(int a[],int size){
+
+    int max=a[0];
+    int min=a[0];
+
+    for (int i = 0; i <size; i++)
+    {
+        if (max<=a[i])
+        {
+            max=a[i];
+        }
+
+        if (min>=a[i])
+        {
+            min=a[i];
+        }
+        
+    }
+    cout<<min<<" "<<max;
+
 }
 
-
-
-
-
 int main(){
-    int n;
-    cin>>n;
-    int arr[n];
+    int tt;
+    cin>>tt;
 
-    if (n>=1 && n<=1000)
+    int arr[tt];
+    for (int i = 0; i <tt; i++)
     {
-        for (int i=0; i<n; i++)
-        {
-            cin>>arr[i];
-        }
+        cin>>arr[i];
     }
-    max_min(); 
+    max_min(arr,tt);
 }

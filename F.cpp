@@ -4,7 +4,7 @@ using namespace std;
 void equation(int x,int n){
     int sum=0;
     int mul=1;
-    for (int i=2; i<n; i+=2)
+    for (int i=2; i<=n; i+=2)
     {   
         for (int j=1; j<=i; j++)
         {
