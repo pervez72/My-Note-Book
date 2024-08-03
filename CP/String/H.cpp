@@ -20,10 +20,11 @@ int main(){
             int num;
             char ch;
             cin>>num>>ch;
-            if(num>=1 && num<=100)
-            {
-               dis(num,ch);
+            if(num>=1 && num<=100){
+            dis(num,ch);
+            cout<<"\n";
             }
+              
         }
     }
     
