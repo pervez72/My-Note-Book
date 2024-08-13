@@ -7,11 +7,9 @@ void average(double a[],int size){
     {
         sum+=a[i];
     }
-    avg=sum/3;
-    cout<<avg;
+    avg=sum/size;
+    cout<<fixed<<setprecision(7)<<avg;
 }
-//do the correction
-
 int main(){
 
     int num;
@@ -22,8 +20,5 @@ int main(){
     {
         cin>>arr[i];
     }
-    
     average(arr,num);
-
-
 }
