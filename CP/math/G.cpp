@@ -2,14 +2,17 @@
 using namespace std;
 
 int main(){
-    int n;
+    long long  n;
     cin>>n;
-    int sum=0;
-    for (int i =1; i<=n; i++)
+    long long sum=0;
+    for (long long i =1; i<=sqrt(n); i++)
     {
         if (n%i==0)
         {
             sum+=i;
+            if(i!=sqrt(n)){
+                sum+=n/i;
+            }
         }
     }
     cout<<sum;
