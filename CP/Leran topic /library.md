@@ -27,4 +27,16 @@
         cout<<"\n";
         
     }
+
+
+* 10^10000 number divide any number :
+    long long res=0;
+    for (int i = 0; i<x.size(); i++)
+    {
+    res=res*10;
+    res=res+x[i]-'0';                                                                                            
+    res=res%y; 
+    }
+    if(res==0)cout<<"yes"
+
 * 
