@@ -15,4 +15,28 @@
         cout<<"YES";
 
 * any number prime or  not prime check >> use loop range sqrt(n);
+* Pascel Triange :
+     for (int i = 0; i<n; i++)
+    {   
+        value =1;
+        for (int j= 0; j<=i; j++)
+        {
+            cout<<value<<" ";
+            value=value*(i-j)/(j+1);
+        }
+        cout<<"\n";
+        
+    }
+
+
+* 10^10000 number divide any number :
+    long long res=0;
+    for (int i = 0; i<x.size(); i++)
+    {
+    res=res*10;
+    res=res+x[i]-'0';                                                                                            
+    res=res%y; 
+    }
+    if(res==0)cout<<"yes"
+
 * 
