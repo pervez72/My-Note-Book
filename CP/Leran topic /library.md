@@ -39,4 +39,26 @@
     }
     if(res==0)cout<<"yes"
 
-* 
+* Soft system: #include<bits/stdc++.h>
+using namespace std;
+
+void solve(){
+    int n; cin >> n;
+    int sum = 0;
+    int x;
+    for(int i = 0; i < n; i++){
+        cin >> x;
+        sum += abs(x);
+    }
+    cout << sum << endl;
+    return;
+}
+int main(){
+    int test = 1, t;
+    //cin >> test;
+    for(t = 1; t <= test; t++){
+        solve();
+    }
+    return 0;
+}
+
