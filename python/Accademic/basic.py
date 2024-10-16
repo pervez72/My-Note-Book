@@ -7,3 +7,5 @@ e="Pervez hasan"
 f='a'
 print(a,b,c,d,e,f)
 
+x=input()
+print(x)
