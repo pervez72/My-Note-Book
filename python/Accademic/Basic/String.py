@@ -24,5 +24,7 @@
 # print(na.find("is"))
 
 #split
-na="Micel jacktion, is a best singer"
-print(na.split(','))
+# na="Micel jacktion, is a best singer"
+# print(na.split(','))
+
+
