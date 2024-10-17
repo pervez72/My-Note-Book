@@ -9,15 +9,8 @@ else:
 
 print("\n")
 #ternary operator 
-#value_if_true if condition else value_if_false
+# (value execute when if true) if(true) else (value is not execute when else condition true)
 x = 8
 print("x is even") if x % 2 == 0 else print("x is odd")
 
-age = 18
-status = "Adult" if age >= 18 else "Minor"
-print(status)
-
-x = 10
-result = "Even" if x % 2 == 0 else "Odd"
-print(result)
 
