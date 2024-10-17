@@ -1,4 +1,8 @@
 #Conditional statement
+x=26/5 #that answer is 4.166666666666667
+x=25//5 #that nswer is only 4
+
+
 x=10
 if x!=10:
     print("if condition is true")
