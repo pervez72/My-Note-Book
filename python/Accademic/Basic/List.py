@@ -32,3 +32,9 @@ print(squares)
 # power in variable
 x=2
 print(x**2)
+
+
+#class note 
+#list inside tupple or tuple inside list
+li=[5,6,('ha','ka'),(1,2),1,3]
+print(li)

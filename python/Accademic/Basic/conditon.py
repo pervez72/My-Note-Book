@@ -1,4 +1,8 @@
 #Conditional statement
+x=26/5 #that answer is 4.166666666666667
+x=25//5 #that nswer is only 4
+
+
 x=10
 if x!=10:
     print("if condition is true")
@@ -9,15 +13,8 @@ else:
 
 print("\n")
 #ternary operator 
-#value_if_true if condition else value_if_false
+# (value execute when if true) if(true) else (value is not execute when else condition true)
 x = 8
 print("x is even") if x % 2 == 0 else print("x is odd")
 
-age = 18
-status = "Adult" if age >= 18 else "Minor"
-print(status)
-
-x = 10
-result = "Even" if x % 2 == 0 else "Odd"
-print(result)
 
