@@ -18,3 +18,6 @@ x = 8
 print("x is even") if x % 2 == 0 else print("x is odd")
 
 
+##### class
+i=5
+i>6
