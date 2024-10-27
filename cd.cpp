@@ -2,29 +2,14 @@
 using namespace std;
 
 int main(){
-   
-    int n,c;
-    cin>>n>>c;
+    int w;
+    cin>>w;
 
-    int a[n];
-    for (int i = 0; i<n; i++)
+    if (w%2==0 && w>=2)
     {
-       cin>>a[i];
+        cout<<"YES";
     }
-    
-    int cnt=1;
-    for (int i=0; i < n; i++)
-    {   
-        if(a[0]){
-            cnt++;
-        }
-
-        if ((a[i+1]-a[i])>=c)
-        {
-            cnt++;
-
-        }
-        
+    else{
+        cout<<"NO"; 
     }
-    
 }
