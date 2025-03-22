@@ -1,0 +1,7 @@
+1 . Business Problem to ML Proablem 
+2 . Type a Problem
+3 . Current Solution 
+4 . Getting Data 
+5 . Metrics to Mesasure
+6 . Online vs Batch
+7 . Check Assumptions
