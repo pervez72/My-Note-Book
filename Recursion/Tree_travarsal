@@ -1,0 +1,6 @@
+void inorder(TreeNode* root) {
+    if (root == NULL) return;
+    inorder(root->left);      // ⬅️ এই লাইনে call হলে, current execution "pause" হয়ে যায়
+    cout << root->data << " "; // ⬅️ এরপর এই লাইন তখনই চলে, যখন আগের call থেকে "ফিরে আসে"
+    inorder(root->right);
+}
